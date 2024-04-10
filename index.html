@@ -920,7 +920,11 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById("about").scrollIntoView({behavior: "smooth", block: "center"});
+    });
+  </script>
 </body>
 
 </html>
